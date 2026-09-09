@@ -1,0 +1,4 @@
+schema_version: 1
+text_prohibited_roles: [formal-template, evidence, structured-response]
+text_prohibited_terms: [营业执照, 审计报告, 纳税证明, 社保证明, 身份证, 银行资信证明]
+tender_text_source_prohibited: true

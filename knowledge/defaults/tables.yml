@@ -1,0 +1,14 @@
+schema_version: 1
+tables:
+  - id: itemized-quote
+    aliases: [分项报价表, 投标报价明细表, 货物报价表]
+    key_columns: [序号, 货物名称, 项目名称, 单价, 合价, 数量]
+  - id: technical-response
+    aliases: [技术规格响应表, 技术偏离表, 技术响应表]
+    key_columns: [序号, 招标要求, 投标响应, 偏离情况]
+  - id: commercial-response
+    aliases: [商务响应表, 商务偏离表]
+    key_columns: [序号, 招标要求, 投标响应, 偏离情况]
+  - id: goods-service-description
+    aliases: [货物说明表, 服务说明表, 货物或服务说明表]
+    key_columns: [序号, 名称, 品牌型号, 技术参数, 服务内容]

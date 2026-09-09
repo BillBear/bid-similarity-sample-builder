@@ -1,0 +1,8 @@
+schema_version: 1
+relations:
+  - tender_role: procurement-requirement
+    allowed_bid_roles: [technical-solution, construction-organization, after-sales-service]
+    use: structural-reference-only
+  - tender_role: evaluation-criteria
+    allowed_bid_roles: [technical-solution, after-sales-service, quality-assurance]
+    use: structural-reference-only

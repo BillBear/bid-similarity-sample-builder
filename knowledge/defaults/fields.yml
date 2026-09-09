@@ -1,0 +1,20 @@
+schema_version: 1
+fields:
+  - id: bidder-name
+    labels: [投标人, 投标人名称, 投标单位, 供应商名称]
+  - id: legal-representative
+    labels: [法定代表人, 法人代表]
+  - id: legal-id-number
+    labels: [法定代表人身份证号码, 法人身份证号, 身份证号码]
+  - id: authorized-agent
+    labels: [授权代表, 授权代理人, 委托代理人]
+  - id: agent-id-number
+    labels: [授权代理人身份证号码, 授权代表身份证号码]
+  - id: total-price
+    labels: [投标总价, 投标报价, 报价总额]
+  - id: contact-address
+    labels: [地址, 通讯地址, 联系地址]
+  - id: contact-phone
+    labels: [联系电话, 电话, 联系方式]
+  - id: postal-code
+    labels: [邮编, 邮政编码]

@@ -1,0 +1,47 @@
+schema_version: 1
+sections:
+  - id: after-sales-service
+    title: 售后服务方案
+    role: bidder-authored-solution
+    aliases: [售后服务方案, 售后服务承诺, 售后服务措施, 售后保障方案, 售后服务计划]
+    text_allowed: true
+  - id: quality-assurance
+    title: 质量保证措施
+    role: bidder-authored-solution
+    aliases: [质量保证措施, 质量保证方案, 质量承诺, 质量控制措施]
+    text_allowed: true
+  - id: construction-organization
+    title: 实施组织方案
+    role: bidder-authored-solution
+    aliases: [施工组织方案, 施工组织设计, 项目实施方案, 供货实施方案]
+    text_allowed: true
+  - id: technical-solution
+    title: 技术方案
+    role: bidder-authored-solution
+    aliases: [技术方案, 技术实施方案, 技术服务方案, 系统技术方案]
+    text_allowed: true
+  - id: training-plan
+    title: 培训方案
+    role: bidder-authored-solution
+    aliases: [培训方案, 培训计划, 技术培训方案]
+    text_allowed: true
+  - id: project-management
+    title: 项目管理方案
+    role: bidder-authored-solution
+    aliases: [项目管理方案, 项目组织方案, 项目实施管理方案]
+    text_allowed: true
+  - id: formal-template
+    title: 格式模板文件
+    role: formal-template
+    aliases: [投标函, 法定代表人身份证明, 法定代表人授权委托书, 开标一览表]
+    text_allowed: false
+  - id: qualification-evidence
+    title: 资格资质证明
+    role: evidence
+    aliases: [营业执照, 资质证书, 财务审计报告, 纳税证明, 社保证明, 类似业绩证明, 信用证明]
+    text_allowed: false
+  - id: price-response
+    title: 报价响应文件
+    role: structured-response
+    aliases: [分项报价表, 投标报价明细表, 报价一览表, 货物报价表]
+    text_allowed: false
