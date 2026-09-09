@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "mode": "balanced",
+  "knowledge": {
+    "effective_config_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "documents": {
+    "base": "input/base-bid.pdf",
+    "target": "input/controlled-bid.pdf"
+  },
+  "points": [
+    {
+      "id": "FIELD-01",
+      "type": "FIELD",
+      "pair_id": "PAIR-01",
+      "base": {
+        "file": "input/base-bid.pdf",
+        "page": 2,
+        "bbox": [120.0, 300.0, 290.0, 322.0],
+        "full_context": "地址：示例园区18号"
+      },
+      "target": {
+        "file": "input/controlled-bid.pdf",
+        "page": 2,
+        "bbox": [120.0, 300.0, 290.0, 322.0],
+        "full_context": "地址：示例园区18号"
+      },
+      "semantic_reason": "投标函中的联系地址字段，页面标签和完整原值均已核对。",
+      "confidence": 0.98,
+      "auto_eligible": true,
+      "operation": "replace-existing-field",
+      "field_id": "contact-address",
+      "anchor_label": "地址",
+      "old_value": "示例园区18号",
+      "new_value": "示例园区28号",
+      "value_span_complete": true
+    }
+  ]
+}
