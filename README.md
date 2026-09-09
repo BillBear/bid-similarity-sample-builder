@@ -12,7 +12,7 @@ cd bid-similarity-sample-builder
 python -m pip install -r requirements.txt
 ```
 
-公开仓库可访问后，也可通过 skills.sh 安装：
+也可通过 skills.sh 安装：
 
 ```bash
 npx skills add https://github.com/BillBear/bid-similarity-sample-builder
